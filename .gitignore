@@ -1,0 +1,16 @@
+# credenciales y configuracion local
+.env
+.streamlit/secrets.toml
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# editores y sistema
+.idea/
+.vscode/
+.DS_Store
+*.log
+# datos generados (el init.sql se genera en el build de Docker)
+init.sql
+*.csv
